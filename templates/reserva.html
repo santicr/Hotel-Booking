@@ -19,7 +19,7 @@
             </div>
         </nav>
         <center>
-            <form action="{{ url_for('reserva_success') }}" method="POST">
+            <form action="{{ url_for('reserva_success', var = num) }}" method="POST">
                 <div class="col-12 col-lg-3 mb-3">
                     <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
                     <input type="email" name="correo" class="form-control" required>
