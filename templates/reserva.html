@@ -9,15 +9,12 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/"><h5>Menú principal</h5></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><h5>Gestionar reserva</h5></a>
+                        <a class="nav-link" href="/"><h6>Menú principal</h6></a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar reserva por UUID">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                 </form>
             </div>
         </nav>
@@ -26,7 +23,15 @@
                 <div class="col-12 col-lg-3 mb-3">
                     <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
                     <input type="email" name="correo" class="form-control" required>
-                  </div>
+                </div>
+                <div class="col-12 col-lg-3 mb-3">
+                    <label for="numTarjeta" class="form-label">Nombre de la tarjeta</label>
+                    <input type="text" name="nombre" class="form-control" required>
+                </div>
+                <div class="col-12 col-lg-3 mb-3">
+                    <label for="numTarjeta" class="form-label">Apellidos de la tarjeta</label>
+                    <input type="text" name="apellidos" class="form-control" required>
+                </div>
                 <div class="col-12 col-lg-3 mb-3">
                   <label for="numTarjeta" class="form-label">Número de tarjeta de crédito</label>
                   <input type="text" name="numTarjeta" class="form-control" required>
