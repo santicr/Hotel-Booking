@@ -12,8 +12,8 @@
                         <a class="nav-link" href="/"><h6>Menú principal</h6></a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-3" type="text" placeholder="Buscar reserva por UUID">
+                <form action="{{ url_for('request_reserva') }}" method = 'POST' class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-3" name="uuid" type="text" placeholder="Buscar reserva por UUID">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                 </form>
             </div>
