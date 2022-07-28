@@ -1,5 +1,5 @@
 # Hotel-Reservation
-### Miniproject using flask, reservation hotel and management of the reservations. I used txt files as data base.
+### Miniproject using flask. Reservation hotel and management of the reservations. I used txt files as data base.
 
 ### For this project, I used Flask, url_for and redirect libraries/frameworks.
 ### I used txt files as data base for user data and for reservation data.
